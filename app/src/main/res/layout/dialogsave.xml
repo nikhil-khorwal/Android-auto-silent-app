@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:textSize="16dp"
+        android:text="Save your chnages or discard them?"
+        android:textColor="@color/darktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/cancletxt"
+        android:text="CANCLE"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/mailclr"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/discardtxt"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/discardtxt"
+        android:text="DISCARD"
+        android:layout_marginTop="35dp"
+        android:textColor="@color/mailclr"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/savetxt"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/savetxt"
+        android:text="SAVE"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/mailclr"
+        android:textStyle="bold"
+        android:layout_below="@id/nametxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

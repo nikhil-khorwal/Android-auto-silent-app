@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/nametxt"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Schedule Name"
+        android:textColor="@color/darktxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_below="@id/nametxt"
+        android:id="@+id/nameedit"
+        android:textSize="18dp"
+        android:textColor="@color/mailclr"
+        android:layout_marginTop="9dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/cancletxt"
+        android:text="CANCEL"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/mailclr"
+        android:textStyle="bold"
+        android:layout_toLeftOf="@id/oktxt"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/nameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/oktxt"
+        android:text="OK"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/mailclr"
+        android:textStyle="bold"
+        android:layout_below="@id/nameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>
